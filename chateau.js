@@ -9,18 +9,18 @@ let discCrousel3= document.getElementById("disc3");
 
 
 discCrousel1.addEventListener("click", function(){
-    imgCrousel1.style.display = "block";
+    imgCrousel1.style.display = "inline-block";
     imgCrousel2.style.display = "none";
     imgCrousel3.style.display = "none";
 
 });
 discCrousel2.addEventListener("click", function(){
-    imgCrousel2.style.display = "block";
+    imgCrousel2.style.display = "inline-block";
     imgCrousel1.style.display = "none";
     imgCrousel3.style.display = "none";
 });
 discCrousel3.addEventListener("click", function(){
-    imgCrousel3.style.display = "block";
+    imgCrousel3.style.display = "inline-block";
     imgCrousel1.style.display = "none";
     imgCrousel2.style.display = "none";
 });
